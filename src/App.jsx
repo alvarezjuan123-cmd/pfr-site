@@ -355,17 +355,11 @@ export default function Site() {
               <CTAButton href={STRIPE_PAYMENT_LINK}>{t.event.btn}</CTAButton>
               <span className="text-xs text-slate-400">{t.event.note}</span>
             </div>
-          </div>
           <div className="rounded-2xl border border-slate-800 bg-slate-900 p-6">
-            <h3 className="font-semibold">Agenda</h3>
-            <ul className="mt-3 text-sm text-slate-300 space-y-2">
-              <li>00:00–00:10 · Welcome and framing</li>
-              <li>00:10–00:35 · What is PfR</li>
-              <li>00:35–01:00 · Identity Capsule demo</li>
-              <li>01:00–01:20 · Use cases and Q&amp;A</li>
-              <li>01:20–01:30 · Next steps</li>
-            </ul>
-          </div>
+  <img src="/speaker.png" alt="Speaker"
+       className="w-full h-32 object-cover rounded-xl border border-slate-800 mb-3" />
+  <h3 className="font-semibold">Agenda</h3>
+</div>
         </div>
       </Section>
 
