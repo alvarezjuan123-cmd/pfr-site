@@ -304,11 +304,7 @@ export default function Site() {
             <div className="relative p-1 rounded-3xl bg-gradient-to-br from-indigo-500/20 via-purple-500/10 to-cyan-500/20">
               <div className="rounded-3xl p-6 bg-slate-900 border border-slate-800">
                 <div className="text-xs uppercase tracking-widest text-slate-400 mb-2">PfR Capsule Preview</div>
-                <div className="rounded-xl h-60 bg-slate-950/50 border border-slate-800 flex items-center justify-center text-slate-400 text-sm">
-                  Embed your CapsuleGPT or a demo video here
-                </div>
-                <p className="mt-3 text-slate-400 text-xs">Placeholder. Replace with an iframe or image.
-                </p>
+                <img src="/hero.jpg" alt="Prompting for Reality" className="w-full h-60 object-cover rounded-xl border border-slate-800" />
               </div>
             </div>
           </div>
