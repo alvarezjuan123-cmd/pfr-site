@@ -192,7 +192,7 @@ function Nav({ lang, setLang }) {
     <nav className="sticky top-0 z-40 backdrop-blur bg-slate-900/70 border-b border-slate-800">
       <div className="max-w-6xl mx-auto px-4 flex items-center justify-between h-14">
         <a href="#home" className="flex items-center gap-2 font-semibold">
-          <Sparkles className="w-5 h-5 text-indigo-400" />
+          <img src="/logo.png" alt="PfR" className="w-6 h-6 rounded-sm" />
           <span>{t.brand}</span>
         </a>
         <div className="hidden md:flex items-center">
